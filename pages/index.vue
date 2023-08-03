@@ -1,3 +1,7 @@
+<style lang="scss">
+    @import "../assets/scss/main.scss";
+    @import "../assets/scss/pages/index";
+</style>
 <template>
   <div class="main-container">
         <AppHeader />

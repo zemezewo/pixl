@@ -4,7 +4,7 @@
             <!-- LOGO -->
             <a href="index.html">pixl.</a>
             <!-- LOGO -->
-            <Search v-if="type"/>
+            <Search v-if="isUsersPath"/>
         </header>
     </div>
 </template>
@@ -14,6 +14,11 @@
         data() {
             return {
                 type: false
+            }
+        },
+        computed:{
+            isUsersPath(){
+                return  this.$route.path==='/List'
             }
         }
     }

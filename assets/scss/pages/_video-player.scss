@@ -1,0 +1,50 @@
+#player {
+    border: 6px solid black;
+    width: 85%;
+    height: 600px;
+    margin: auto;
+}
+
+#title-channelname {
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title {
+    /* padding-top: 1rem; */
+    /* border: 1px solid red; */
+    margin-block: auto;
+}
+
+#vid-info {
+    margin: auto;
+    width: 80%;
+    /* padding: 2rem; */
+    border-bottom: 6px solid black;
+}
+
+.channelname {
+    /* border: 1px solid red; */
+    display: flex;
+    /* padding-bottom: 1rem; */
+}
+
+.channelname-img {
+    /* border: 1px solid red; */
+    width: 2.75rem;
+    margin-top: 0.75rem;
+
+    img {
+        /* border: 1px solid red; */
+        border-radius: 50%;
+        width: 100%
+    }
+}
+
+.channelname-txt {
+    /* border: 1px solid red; */
+    padding: 1rem;
+}

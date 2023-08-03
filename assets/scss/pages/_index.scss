@@ -1,0 +1,54 @@
+.flex-container {
+    /* border: 1px solid red; */
+    width:  100%;
+    /* padding: 100px; */
+    padding: 8rem 0rem 6rem 10rem;
+    margin: auto;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        font-size: 2.5rem;
+        border: 6px solid black;
+        width: 192px;
+        padding: 0.5rem;
+        position: relative;
+        /* top: 40px; */
+        top: 4rem;
+        /* left: 200px; */
+        left: 60rem;
+        transition: 0.25s;
+
+        &:hover {
+            box-shadow: -6px 6px 0 black;
+            transform: translate(6px,-6px);
+        }
+    }
+    
+}
+
+h3 span {
+    /* border: 1px solid red; */
+    /* margin-top: 30px; */
+    margin-top: 2.5rem;
+    display: block;
+    width: 60rem;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+
+#pixl {
+    display: inline;
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}

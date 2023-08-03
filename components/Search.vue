@@ -1,8 +1,17 @@
 <template>
     <!-- SEARCHBAR , border around form not input so search button has illusion of being within search input-->
     <form action="">
+        <select v-model="filter">
+        <option v-for="option in options" v-bind:value="option.value">
+        {{ option.text }}
+        </option>
+        </select>
         <input type="search" placeholder="Search">
-        <button type="submit"><img src="Zoom.svg" alt="Search Icon"></button>
+        <button type="submit">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6V5H18V4H17V3H7V4H6V5H5V6H4V16H5V17H6V18H7V19H15V21H16V22H19V20H18V19H17V18H18V17H19V16H20V6H19ZM18 14H17V15H16V16H15V17H9V16H8V15H7V14H6V8H7V7H8V6H9V5H15V6H16V7H17V8H18V14Z" fill="black"/>
+            </svg>
+        </button>
     </form>
     <!-- SEARCHBAR -->
 </template>
@@ -11,7 +20,17 @@
         name: 'Search',
         data() {
             return {
+                filter: 'video',
+                options: [
+                    { text: 'Video', value: 'video' },
+                    { text: 'Channel', value: 'channel' },                
+                ]
 
+            }
+        },
+        methods: {
+            submit(event) {
+                //Call API with value from form
             }
         }
     }

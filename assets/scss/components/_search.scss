@@ -1,0 +1,27 @@
+form {
+    margin-left: 8rem;
+    border: 6px solid black;
+    width: 100%;
+    display: flex;
+
+    button {
+        border: none;
+        background-color: white;
+        margin: 0.5rem;
+    }
+}
+
+input {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+select {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    border-right: 6px solid black;
+}

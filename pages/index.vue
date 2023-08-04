@@ -12,7 +12,8 @@
                 Welcome to <span id="pixl">pixl.</span>
                 <span>Explore millions of videos from various channels.</span>
             </h3>
-            <a href="channelList.html">Explore.</a>
+            <!-- <a href="channelList.html">Explore.</a> -->
+            <a href="/List">Explore.</a>
         </div>
         <!-- HERO -->
   </div>

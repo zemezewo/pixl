@@ -18,10 +18,16 @@ input {
     height: 100%;
     padding: 0.5rem;
     font-size: 1.5rem;
+    :focus-within {
+        outline: none;
+    }
 }
 
 select {
     font-size: 1.5rem;
     padding-left: 0.5rem;
     border-right: 6px solid black;
+    :focus-within {
+        outline: none;
+    }
 }

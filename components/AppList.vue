@@ -10,7 +10,7 @@ import AppCard from './AppCard.vue';
     export default {
     name: 'AppList',
     props: [
-        vids
+        vids,        
     ],
     data() {
         return {

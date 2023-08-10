@@ -1,7 +1,6 @@
 <template>
     <ul>
-        <!-- <AppCard v-for="item in vids.items" :key="item.id" /> -->
-        <li>Hello</li>
+        <AppCard v-for="item in vids.items" :key="item.id" />
     </ul>
 </template>
 <script>
@@ -9,9 +8,9 @@ import AppCard from './AppCard.vue';
 
     export default {
     name: 'AppList',
-    props: [
-        vids
-    ],
+    props: {
+        vids: Object,        
+    },
     data() {
         return {
             

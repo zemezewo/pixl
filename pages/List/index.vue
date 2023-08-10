@@ -8,7 +8,7 @@
 <template>
     <div>
         <AppHeader />
-        <AppList :vids="vids" />
+        <AppList />
     </div>
 </template>
 
